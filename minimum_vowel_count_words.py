@@ -1,14 +1,18 @@
 n=input()
-s=list(n.split())
-l=[]
-v="aeiou"
-for i in s:
+l=list(n.lower().split())
+#print
+#c=0
+l1=[]
+v='aeiou'
+for i in l:
     c=0
     for j in i:
-        if j in v:
+        if j in v :
             c+=1
-    l.append(c)
-#print(l)
-k=min(l)
-e=l.count(k)
-print(e)
+    l1.append(c)
+l2=[]
+for k in l1:
+    if k==min(l1):
+        l2.append(k)
+print(len(l2))
+            
