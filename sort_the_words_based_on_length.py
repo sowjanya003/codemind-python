@@ -1,0 +1,5 @@
+n=input()
+s=list(n.split())
+s.sort()
+s1=sorted(s,key=len)
+print(*s1)
