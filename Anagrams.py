@@ -1,6 +1,6 @@
 s1=list(str(input()))
 s2=list(str(input()))
 if len(s1)==len(s2):
-    print('True')
+    print(True)
 else:
-    print('False')
+    print(False)
