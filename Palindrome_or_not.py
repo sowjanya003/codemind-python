@@ -1,6 +1,9 @@
-n=input().lower()
-l=n[::-1]
-if n==l:
-    print('True')
-else:
-    print('False')
+def pl(n):
+    p=n.lower()
+    l=p[::-1]
+    if p==l:
+        return True
+    else:
+        return False
+n=input()
+print(pl(n))
