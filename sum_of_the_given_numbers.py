@@ -1,5 +1,8 @@
-n=int(input())
-for i in range(n):
- k=0
- a,b=map(int,input().split())
- print(a+b)
+def su(a,b):
+    s=a+b
+    return s
+x=int(input())
+for i in range(x+1):
+    m,n=map(int,input().split())
+    print(su(m,n))
+
